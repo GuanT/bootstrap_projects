@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6{
 p{
   margin:0 0 25px;
   font-size:18px;
-  line-height:1.6cm;
+  line-height:1.6em;
 }
 
 a{
@@ -141,4 +141,81 @@ a:hover,a:focus{
   .intro-text{
     font-size: 25px;
   }
+}
+
+//content section
+
+.content-section{
+  padding: :70px 0 20px;
+}
+
+//Icon Blocks
+
+.block-icon-left{
+  overflow:auto;
+  h1,h2,h3,h4,h5,h6{
+    margin: 0 0 10px 0;
+    padding:0;
+    font-size:20px;
+  }
+  .icon-content{
+    float:left;
+    width:70%;
+  }
+  .icon{
+    float:left;
+    width:30%;
+    margin-top:10px;
+  }
+}
+
+.who-section{
+  width:100%;
+  padding:50px 0;
+  color:@light;
+  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background-color:@dark;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+@media(min-width: 767px){
+  .who-section{
+    padding: 100px 0;
+  }
+}
+
+//Clients section
+
+#clients{
+  text-align: :center;
+  padding-bottom:80px;
+  img{
+    margin-right:30px;
+  }
+}
+
+//Contact Section
+#contact{
+  background:@dark;
+  color:@light;
+  padding-bottom:80px;
+}
+
+//footer section
+footer{
+  margin-top:10px;
+  padding-top:30px;
+  height:80px;
+  text-align:center;
+}
+
+.page-scroll{
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -webkit-transform;
+  -moz-transition-duration: 1s;
+
 }
